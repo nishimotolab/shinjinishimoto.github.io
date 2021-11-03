@@ -18,7 +18,7 @@ permalink: /donation.html
 <br />
 寄付受付サイト（クレジットカード・銀行振込）：<br />
 大阪大学未来基金・生命機能研究科教育研究事業<br />
-https://www.miraikikin.osaka-u.ac.jp/406/
+<a href='https://www.miraikikin.osaka-u.ac.jp/406/'>https://www.miraikikin.osaka-u.ac.jp/406/</a>
 
 <br />
 <br />
