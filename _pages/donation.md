@@ -16,11 +16,12 @@ permalink: /donation.html
 
 <br />
 <br />
+寄付受付サイト（クレジットカード・銀行振込）：<br />
 大阪大学未来基金・生命機能研究科教育研究事業<br />
 https://www.miraikikin.osaka-u.ac.jp/406/
 
 <br />
 <br />
 
-ご寄付の後、お手数ですが生命機能研究科庶務係（seimei-syomu at office.osaka-u.ac.jp）宛に西本研究室の教育・研究活動の支援のためのご寄付であることをお伝え下さい。
+上記サイトでのお手続きの後、お手数ですが生命機能研究科庶務係（seimei-syomu at office.osaka-u.ac.jp）宛に西本研究室の教育・研究活動の支援のためのご寄付であることをお伝え下さい。
 
