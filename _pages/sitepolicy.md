@@ -25,6 +25,7 @@ permalink: /sitepolicy
 
 - 当サイトでは、サイトの利用状況把握のためGoogle社によるアクセス解析ツール「Google Analytics」を利用しています。
 - Google Anlyticsは、トラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。このデータ収集機能はブラウザでGoogle AnalyticsもしくはCookieを無効にすることで拒否することが出来ます。
-- Google Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されています。Google Analyticsの利用規約・プライバシーポリシーについては[こちら](https://marketingplatform.google.com/about/analytics/terms/jp/)をご参照ください。
+- Google Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されています。詳しくはGoogle Analyticsの[利用規約](https://marketingplatform.google.com/about/analytics/terms/jp/)やGoogle社の[プライバシーポリシー](https://www.google.com/intl/ja/policies/privacy/partners/)をご参照ください。
+- プライバシーポリシーは法規制の改定等に伴い変更される可能性があります。
 
 <br />
