@@ -8,7 +8,6 @@ permalink: /sitepolicy
 
 ### サイトポリシー
 
-<br />
 
 #### 免責事項
 
@@ -21,7 +20,6 @@ permalink: /sitepolicy
 
 ### プライバシーポリシー
 
-<br />
 
 #### アクセス解析ツールについて
 
