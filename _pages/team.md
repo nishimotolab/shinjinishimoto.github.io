@@ -127,7 +127,9 @@ permalink: /team/
 </div>
 {% endif %}
 
+<br>
 
-###　情報通信研究機構CiNet　西本グループ
-
+### 情報通信研究機構CiNet　西本グループ
+<br>
 [メンバーページ](https://www2.nict.go.jp/bnc/nishimoto/members.html)
+<br>
