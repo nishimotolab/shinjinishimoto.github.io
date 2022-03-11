@@ -47,13 +47,13 @@ permalink: /
 </div>
 <br />
 
-私たちは
+私たちは以下の大学・国立研究機関において分野・機関横断的な教育と研究を行っています。
 
 -  [大阪大学 大学院生命機能研究科](https://www.fbs.osaka-u.ac.jp/ja/research_group/detail/25)
 -  [大阪大学 基礎工学部システム科学科生物工学コース](http://www.bpe.es.osaka-u.ac.jp/)
 -  [情報通信研究機構 未来ICT研究所脳情報通信融合研究センター（CiNet）](https://www2.nict.go.jp/bnc/nishimoto/index.html)
 
-において分野・機関横断的な教育と研究を行っています。<br />
+<br />
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_3.png" style="max-width: 100%">
