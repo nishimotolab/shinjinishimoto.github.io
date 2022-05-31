@@ -10,6 +10,7 @@ permalink: /resources/
 
 ### オープンデータ・コード
 #### fMRI
+[Brain networks are decoupled from external stimuli during internal cognition](https://doi.org/10.17605/OSF.IO/47XEB)<br>
 [Over 100 Task fMRI Dataset](https://openneuro.org/datasets/ds002306/)<br>
 [Music Genre fMRI Dataset](https://openneuro.org/datasets/ds003720/)<br>
 [fMRI dataset on program comprehension and expertise](https://openneuro.org/datasets/ds002411/)<br>
