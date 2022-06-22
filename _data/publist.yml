@@ -1,11 +1,11 @@
 - title: "Brain networks are decoupled from external stimuli during internal cognition"
-  image: 
-  description: 
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922003548-gr1.jpg
+  description: 外界の状況に注意を向けているときと内的思考（空想、暗算等） を行っているときの脳活動の関係性を調べることで、内的思考を行っている際には脳内ネットワークにおける情報のデカップリングが起こることを発見しました。
   authors: Cohen D, Nakai T, Nishimoto S.
   link:
     url: https://doi.org/10.1016/j.neuroimage.2022.119230
     display: NeuroImage (2022)
-  highlight: 0
+  highlight: 1
     
 - title: "Voluntary control of semantic neural representations by imagery with conflicting visual stimulation"
   image: 
