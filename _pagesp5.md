@@ -8,11 +8,11 @@ permalink: /p5
 
 テストページ
 テストページ
-テストページ
 
 
 <!DOCTYPE html>
 <html>
+テストページ１
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,5 +28,6 @@ permalink: /p5
 </head>
 
 <body>
+テストページ２
 </body>
 </html>
