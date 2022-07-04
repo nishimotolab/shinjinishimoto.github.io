@@ -11,7 +11,7 @@ function draw() {
   ms=millis()/1000*60;
   ms=floor(ms);
   text("Time:"+ms,20,20);
-  if(ms%0>50){
+  if(ms%60>50){
     ellipse(400,200,10,10);
   }
   return;
