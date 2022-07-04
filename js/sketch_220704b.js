@@ -5,7 +5,7 @@ let tResponse=[];
 const nTrials=10;
 
 function setup() {
-  createCanvas(800,600)
+  createCanvas(windowWidth,windowHeight)
   background(64)
   frameRate(60);
 }
@@ -75,4 +75,8 @@ function keyPressed() {
     tResponse[fCount]=s;
     fStatus=1;
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
