@@ -13,8 +13,8 @@ permalink: /p5
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
-  <script language="javascript" type="text/javascript" src="p5/libraries/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="p5/sketch_220704b.js"></script>
+  <script language="javascript" type="text/javascript" src="js/libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/sketch_220704b.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
 
   <!-- This line removes any default padding and style.
