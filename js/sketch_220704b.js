@@ -5,7 +5,7 @@ let tResponse=[];
 const nTrials=30;
 
 function setup() {
-  createCanvas(windowWidth,windowHeight*0.8)
+  createCanvas(windowWidth,windowHeight*0.95)
   background(64)
   frameRate(60);
 }
@@ -87,5 +87,5 @@ function keyPressed() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight*0.8);
+  resizeCanvas(windowWidth, windowHeight*0.95);
 }
