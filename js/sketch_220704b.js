@@ -2,10 +2,10 @@ let fStatus=0;
 let posXY=[];
 let fCount=0;
 let tResponse=[];
-const nTrials=10;
+const nTrials=30;
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
+  createCanvas(windowWidth,windowHeight*0.8)
   background(64)
   frameRate(60);
 }
@@ -14,11 +14,20 @@ function setup() {
 function draw() {
   background(64)
   fill(255);
-  ellipse(width/2,height/2,5,5);
+  rect(width/2,height/2,5,5);
   
   switch(fStatus){
     case 0:
-      text("Push S to Start",20,20);
+      fill(250);
+      text("Simple visual field test (ver. 0.1; Shinji Nishimoto)",20,20);
+      fill(200);
+      text("How to use:",20,50);
+      text("Fixate on the center square.",20,70);
+      text("Small circles will appear at random positions and timings.",20,90);
+      text("If you find a circle, press f button.",20,110);
+      text("A test will take around a minute.",20,130);
+      fill(50,180,250);
+      text("Press s to start",20,160);
       fCount=0;
       return;
     case 1:
@@ -70,7 +79,7 @@ function keyPressed() {
   if(key=="s") {
     fStatus=1;
   }
-  if(key==" ") {
+  if(key=="f") {
     s=millis()-tStart-tWait;
     tResponse[fCount]=s;
     fStatus=1;
@@ -78,5 +87,5 @@ function keyPressed() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight*0.8);
 }
