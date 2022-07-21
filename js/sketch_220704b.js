@@ -14,20 +14,23 @@ function setup() {
 function draw() {
   background(64)
   fill(255);
-  rect(width/2,height/2,5,5);
+  s=(width+height)/2;
+  rect(width/2,height/2,s*0.005,s*0.005);
+  
   
   switch(fStatus){
     case 0:
       fill(250);
-      text("Simple visual field test (ver. 0.1; Shinji Nishimoto)",20,20);
+      textSize(s*0.016);
+      text("Simple visual field test (ver. 0.1; Shinji Nishimoto)",s*0.01,s*0.03);
       fill(200);
-      text("How to use:",20,50);
-      text("Fixate on the center square.",20,70);
-      text("Small circles will appear at random positions and timings.",20,90);
-      text("If you find a circle, press f button.",20,110);
-      text("A test will take around a minute.",20,130);
+      text("How to use:",s*0.01,s*0.06);
+      text("Fixate on the center square.",s*0.01,s*0.08);
+      text("Small circles will appear at random positions and timings.",s*0.01,s*0.10);
+      text("If you find a circle, press f button.",s*0.01,s*0.12);
+      text("A test will take around a minute.",s*0.01,s*0.14);
       fill(50,180,250);
-      text("Press s to start",20,160);
+      text("Press s to start",s*0.01,s*0.18);
       fCount=0;
       return;
     case 1:
@@ -42,14 +45,14 @@ function draw() {
       posXY[fCount][1]=random(height);
       tResponse[fCount]=0;
       tStart=millis();
-      tWait=random(3000)+500;
+      tWait=random(3000)+300;
       fStatus=2;
       return;
     case 2:
       ms=millis()-tStart;
       //text("Time:"+round(ms/1000),10,10);
       if(ms>tWait & ms<tWait+100){
-        ellipse(posXY[fCount][0],posXY[fCount][1],5,5);
+        ellipse(posXY[fCount][0],posXY[fCount][1],s*0.01,s*0.01);
       }
       if(ms>tWait+1000) {
         fStatus=1;
@@ -57,17 +60,17 @@ function draw() {
       return;
     case 3:
       for(ii=1;ii<fCount;ii++) {
-        s=tResponse[ii];
-        if(s>0) {
+        t=tResponse[ii];
+        if(t>0) {
           fill(127,255,127);
-          ellipse(posXY[ii][0],posXY[ii][1],s/50+5,s/50+5);
+          ellipse(posXY[ii][0],posXY[ii][1],s*0.002*(t/50+5),s*0.002*(t/50+5));
         } 
-        else if(s==0) {
+        else if(t==0) {
           fill(127,0,0);
-          ellipse(posXY[ii][0],posXY[ii][1],20,20);          
+          ellipse(posXY[ii][0],posXY[ii][1],s*0.02,s*0.02);          
         } else {
           fill(0,0,0);
-          ellipse(posXY[ii][0],posXY[ii][1],10,10);          
+          ellipse(posXY[ii][0],posXY[ii][1],s*0.02,s*0.02);          
         }
         
       }
@@ -80,8 +83,8 @@ function keyPressed() {
     fStatus=1;
   }
   if(key=="f") {
-    s=millis()-tStart-tWait;
-    tResponse[fCount]=s;
+    t=millis()-tStart-tWait;
+    tResponse[fCount]=t;
     fStatus=1;
   }
 }
