@@ -42,7 +42,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: true
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-
+  syntax_highlighter: rouge
 
 # sitemap
 plugins:
