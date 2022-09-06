@@ -17,7 +17,7 @@ permalink: /SEEDS2022
 
 ### (1) Google Colabを動かす（簡単な計算）
 
-```
+```python
 x=5
 y=2*x+7
 print(y)
@@ -92,7 +92,7 @@ y=x+np.sin(5*x)
 ### (4) 脳構造データを描画する
 
 脳構造データを読み込んで矢状断面を描画する。
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
