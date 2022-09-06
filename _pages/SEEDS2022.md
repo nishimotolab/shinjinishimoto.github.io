@@ -38,7 +38,7 @@ plt.plot(x,y)
 plt.grid()
 ```
 結果例：
-![ex]({{site.baseurl}}/images/plot1.png)
+![ex]({{site.baseurl}}/images/seeds/plot1.png)
 
 
 
