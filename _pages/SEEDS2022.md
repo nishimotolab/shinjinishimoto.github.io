@@ -31,7 +31,7 @@ print(y)
 
 ### (2) 作図する（関数プロット）
 
-{% highlight python %}
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -40,7 +40,7 @@ y=x**2
 
 plt.plot(x,y)
 plt.grid()
-{% endhighlight %}
+```
 
 結果例：
 ![ex]({{site.baseurl}}/images/seeds/plot1.png)
@@ -48,11 +48,11 @@ plt.grid()
 
 その他の例：
 - 三次関数
-```
+```python
 y=x**3-2*x**2-x+0.5
 ```
 - 三角関数との組み合わせ
-```
+```python
 y=x+np.sin(5*x)
 ```
 <br />
@@ -75,7 +75,7 @@ y=x+np.sin(5*x)
 今回の実習に必要なファイルをクラウドサーバ内にダウンロードする。<br />
 （以下の内容をColabコード枠内にコピー＆ペースト）
 
-```
+```python
 !wget https://www.dropbox.com/s/y232hg3tfm2c4u9/data_mc1.npz
 !wget https://www.dropbox.com/s/oodqmolfpt5mc31/data_mc2.npz
 !wget https://www.dropbox.com/s/zca9fbkqqdgv9rr/data_dt1.npz
