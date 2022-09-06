@@ -26,10 +26,17 @@ print(y)
 17
 <br />
 
+参考：　どの区域のサーバが割り当てられたか確認
+```
+!curl ipinfo.io
+```
+
+<br />
+<br />
 
 #### (2) 作図する（関数プロット）
 
-```python
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -48,14 +55,14 @@ plt.grid()
 ```
 y=x**3-2*x**2-x+0.5
 ```
-- 三角関数
+- 三角関数との組み合わせ
 ```
 y=x+np.sin(5*x)
 ```
 <br />
 
 練習：
-以下のプロットはどのような関数をプロットしたものでしょうか。<br />
+以下の図はどのような関数をプロットしたものでしょうか。<br />
 ![ex]({{site.baseurl}}/images/seeds/plotQ.png)
 
 
