@@ -38,7 +38,7 @@ print(y)
 
 ### (2) 作図する（関数プロット）
 
-```py
+{% highlight python %}
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -47,7 +47,8 @@ y=x**2
 
 plt.plot(x,y)
 plt.grid()
-```
+{% endhighlight %}
+
 結果例：
 ![ex]({{site.baseurl}}/images/seeds/plot1.png)
 <br />
