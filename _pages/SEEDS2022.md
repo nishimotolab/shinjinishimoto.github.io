@@ -14,7 +14,18 @@ permalink: /SEEDS2022
 
 
 
-#### (1) 関数をプロットする
+#### (1) 計算をする
+
+```
+x=5
+y=x+12
+print(y)
+```
+結果例：
+17
+
+
+#### (2) 関数をプロットする
 
 ```python
 import numpy as np
@@ -26,7 +37,8 @@ y=x**2-4*x+3
 plt.plot(x,y)
 plt.grid()
 ```
-
+結果例：
+![ex][/images/plot1.png]
 
 
 
