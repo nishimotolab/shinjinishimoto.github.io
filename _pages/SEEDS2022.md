@@ -9,9 +9,14 @@ permalink: /SEEDS2022
 ### SEEDS2022/T2216
 
 
-#### (1) 関数を表示する
+このページは大阪大学SEEDS体感科学研究2022年度T2216の参照用ページです。閲覧は受講者および関係者に限ります。
 
-```
+
+
+
+#### (1) 関数をプロットする
+
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -22,7 +27,10 @@ plt.plot(x,y)
 plt.grid()
 ```
 
-### (2) データを取得する
+
+
+
+#### (2) データを取得する
 
 ```
 !wget https://www.dropbox.com/s/y232hg3tfm2c4u9/data_mc1.npz
