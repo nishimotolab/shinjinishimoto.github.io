@@ -6,7 +6,7 @@ sitemap: false
 permalink: /SEEDS2022
 ---
 
-### SEEDS2022/T2216
+## SEEDS2022/T2216
 <br />
 
 
@@ -15,7 +15,7 @@ permalink: /SEEDS2022
 <br />
 <br />
 
-#### (1) Google Colabを動かす（簡単な計算）
+### (1) Google Colabを動かす（簡単な計算）
 
 ```
 x=5
@@ -36,7 +36,7 @@ print(y)
 <br />
 <br />
 
-#### (2) 作図する（関数プロット）
+### (2) 作図する（関数プロット）
 
 ```py
 import numpy as np
@@ -63,7 +63,7 @@ y=x+np.sin(5*x)
 ```
 <br />
 
-練習：
+練習問題：
 以下の図はどのような関数をプロットしたものでしょうか。<br />
 ![ex]({{site.baseurl}}/images/seeds/plotQ.png)
 
@@ -76,9 +76,10 @@ y=x+np.sin(5*x)
 <br />
 <br />
 
-#### () ファイルを取得する
+### (3) ファイルを取得する
 
-今回の実習に必要なファイルをクラウドサーバ内にダウンロードする
+今回の実習に必要なファイルをクラウドサーバ内にダウンロードする。<br />
+（以下の内容をColabコード枠内にコピー＆ペースト）
 
 ```
 !wget https://www.dropbox.com/s/y232hg3tfm2c4u9/data_mc1.npz
@@ -87,6 +88,32 @@ y=x+np.sin(5*x)
 !wget https://www.dropbox.com/s/nw8y849b3xbgirk/data_dt2.npz
 ```
 実行例：
+![ex]({{site.baseurl}}/images/seeds/files.png)
 
 
 <br />
+<br />
+
+
+### (4) 脳構造データを描画する
+
+脳構造データを読み込んで矢状断面を描画する。
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+data=np.load('MRI_anat.npz')
+anat=data['anat']
+
+print(anat.shape)
+plt.figure(figsize=(10,10))
+img=anat[45,:,:]
+plt.imshow(img,cmap='gray')
+```
+実行例：
+![ex]({{site.baseurl}}/images/seeds/anat_s.png)
+
+<br />
+
+練習問題：
+
