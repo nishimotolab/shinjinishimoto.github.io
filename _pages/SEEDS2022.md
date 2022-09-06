@@ -19,7 +19,7 @@ permalink: /SEEDS2022
 
 ```
 x=5
-y=x+12
+y=2*x+7
 print(y)
 ```
 結果例：
