@@ -42,7 +42,7 @@ print(y)
 import numpy as np
 import matplotlib.pyplot as plt
 
-x=np.linspace(0,5,1000)
+x=np.arange(-3,3,0.01)
 y=x**2
 
 plt.plot(x,y)
