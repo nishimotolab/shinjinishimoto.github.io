@@ -81,8 +81,8 @@ y=x+np.sin(5*x)
 ```
 
 実行例：
-![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="200px"}<br />
-![ex]({{site.baseurl}}/images/seeds/files.png){:width="200px"}
+![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="400px"}<br />
+![ex]({{site.baseurl}}/images/seeds/files.png){:width="400px"}
 
 メモ:
 最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
