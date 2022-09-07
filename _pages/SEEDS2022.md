@@ -96,7 +96,7 @@ y=x+np.sin(5*x)
 <br />
 
 
-### (4) 脳構造データを扱う（ヒト脳断面の表示）
+### (4) 脳構造（MRI）データを扱う（ヒト脳断面の表示）
 
 脳構造データを読み込んで矢状断面を描画する。
 ```python
@@ -104,7 +104,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 loaded=np.load('MRI_anat.npz')
-br=loaded['anat']   #脳構造データ（3次元; x-y-z）を読み出し
+br=loaded['anat']   #脳構造データ（3次元; X-Y-Z）を読み出し
 
 img=br[85,:,:]   #3次元のデータのうちのある１スライスを指定。「:」はその次元のすべてのデータという意味
 img=np.transpose(img,[1,0])   #０次元目と1次元目を入れ替え（転置、ここでは表示のため）
@@ -117,7 +117,7 @@ plt.imshow(img,origin='lower',cmap='gray')
 
 脳構造データの情報：
 - 被験者：　17歳女性/健康
-- 解像度：　1.3 x 1.0 x 1.0 mm
+- 撮像の空間解像度：　1.3 x 1.0 x 1.0 mm
 - 撮像ボクセル数：　(128, 192, 256)
 - 個人情報保護のためdeface処理済み
 - 公開データ [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
@@ -136,17 +136,17 @@ plt.imshow(img,origin='lower',cmap='gray')
 <br />
 
 
-### (5) 脳機能データを扱う１ （単一ボクセルの応答再現性解析）
+### (5) 脳機能（fMRI）データを扱う１ （単一ボクセルの応答再現性解析）
 
-単一ボクセルの応答を取り出して表示する。（Volumetric pixel = voxel）
+ある一座標（単一ボクセル）の時系列応答を取り出し、繰り返し提示刺激に対する応答再現性を計算する。<br />
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
 loaded=np.load('fMRI_data1.npz')
-ｒ=loaded['func']   #脳機能データ（4次元; t-x-y-z）を読み出し
+ｒ=loaded['func']   #脳機能データ（4次元; 時間-X-Y-Z）を読み出し
 
-r1=r[:,29,70,44]   #単一ボクセルの時系列データの取り出し
+r1=r[:,29,70,44]   #ある一座標（単一ボクセル）の時系列データの取り出し
 r1=np.reshape(r1,[5,60])   #[繰り返し回数(5回） x 時間サンプル数（120秒/（2秒/サンプル）=60サンプル）]にreshape
 
 plt.plot(r1.T)
@@ -161,7 +161,7 @@ ev=1-var_err/var_all   #再現性指標EV値を計算
 print('EV=%.3f'%ev)
 ```
 脳機能データ１の情報：
-- 解像度： 2.0 x 2.0 x 2.0 mm
+- 撮像の空間解像度： 2.0 x 2.0 x 2.0 mm
 - 撮像ボクセル数：　(72,96,96）
 - 撮像時間：　2秒/全脳サンプル
 - 撮像サンプル数：　300
@@ -178,7 +178,7 @@ print('EV=%.3f'%ev)
 <br />
 <br />
 
-### (6) 脳機能データを扱う２ （全脳の応答再現性解析）
+### (6) 脳機能（fMRI）データを扱う２ （全脳の応答再現性解析）
 
 全脳の応答再現性を計算して表示する。
 ```python
@@ -188,7 +188,7 @@ import matplotlib.pyplot as plt
 loaded=np.load('fMRI_data1.npz')
 r=loaded['func']
 
-r=np.reshape(r,(5,60,72,96,96))   #（繰り返し回数、時間、X、Y、Z）の5次元データにreshape
+r=np.reshape(r,(5,60,72,96,96))   #（繰り返し回数-時間-X-Y-Z）の5次元データにreshape
 m=np.mean(r,axis=0)   #繰り返し方向に平均
 var_all=np.var(r,axis=(0,1))   #ボクセルごとの時系列分散を計算
 var_err=np.var(r-m,axis=(0,1))   #エラー（平均周り）の分散を計算
