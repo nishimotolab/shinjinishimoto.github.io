@@ -81,12 +81,12 @@ y=x+np.sin(5*x)
 !wget https://www.dropbox.com/s/g68uu6swuk6zfxk/fMRI_data1.npz
 !wget https://www.dropbox.com/s/j55c318g56qa10p/fMRI_data2.npz
 ```
-メモ：　最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
+メモ：　最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。<br />
 メモ：　「.npz」はNumPyデータを扱うファイル形式の一つ。
 <br />
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="600px"}<br />
-ダウンロードされたことを確認：
+ファイルがダウンロードされたことを確認：
 ![ex]({{site.baseurl}}/images/seeds/files.png){:width="300px"}
 
 
@@ -102,7 +102,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 loaded=np.load('MRI_anat.npz')
-br=loaded['anat']   #脳構造データ（3次元データ）読み出し
+br=loaded['anat']   #脳構造データ（3次元; x-y-z）を読み出し
 
 img=br[85,:,:]   #3次元のデータのうちのある１スライスを指定。「:」はその次元のすべてのデータという意味
 img=np.transpose(img,[1,0])   #０次元目と1次元目を入れ替え（転置、ここでは表示のため）
