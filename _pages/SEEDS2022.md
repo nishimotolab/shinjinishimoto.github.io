@@ -34,10 +34,10 @@ print(y)
 ### (2) 作図する（関数プロット）
 
 ```python
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np   #数値計算ライブラリNumPyを読み出してnpと名付ける
+import matplotlib.pyplot as plt   #作図用ライブラリを読み出してpltと名付ける
 
-x=np.arange(-3,3,0.01)
+x=np.arange(-3,3,0.01)   #-3から3まで0.01刻みで大きくなる等差数列を作ってxに代入
 y=x**2
 
 plt.plot(x,y)
@@ -102,9 +102,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 loaded=np.load('MRI_anat.npz')
-br=loaded['anat']
+br=loaded['anat']   #脳構造データ（3次元データ）読み出し
 
-img=br[85,:,:]   #3次元のデータのうちのあるスライスを指定
+img=br[85,:,:]   #3次元のデータのうちのある１スライスを指定。「:」はその次元のすべてのデータ
 img=np.transpose(img,[1,0])   #０次元目と1次元目を入れ替え（転置）
 
 plt.figure(figsize=(10,10))
@@ -136,21 +136,22 @@ plt.imshow(img,origin='lower',cmap='gray')
 
 ### (5) 脳機能データを扱う（単一ボクセル活動の解析）
 
-単一ボクセルの応答を取り出して表示する。
+単一ボクセルの応答を取り出して表示する。（Volumetric pixel = voxel）
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
 loaded=np.load('fMRI_data1.npz')
-ｒ=loaded['func']
+ｒ=loaded['func']   #脳機能データ（4次元; t-x-y-z）を読み出し
 
 [x,y,z]=[29,70,44]   #単一ボクセルの座標を指定
 r1=r[:,x,y,z]   #上記ボクセルの時系列データの取り出し
-r1=np.reshape(r1,[5,60])   #[繰り返し回数(5回） x ボリューム数（1ボリューム2秒 x 60 = 2分）]にreshape
+r1=np.reshape(r1,[5,60])   #[繰り返し回数(5回） x 時間サンプル数（120秒/（2秒/ボリューム）=60ボリューム）]にreshape
 
 plt.plot(r1.T)
 plt.show()
 
+###ここから再現性指標EV値の計算
 m1=np.mean(r1,axis=0)   #繰り返し回数方向に平均
 var_all=np.var(r1)   #全体の分散を計算
 var_err=np.var(r1-m1)   #エラー（平均周りの分散）を計算
@@ -182,22 +183,23 @@ import matplotlib.pyplot as plt
 
 loaded=np.load('fMRI_data1.npz')
 r=loaded['func']
-ref2d=loaded['ref2d']
 
-r=np.reshape(r,(5,60,72,96,96))
-m=np.mean(r,axis=0)
-var_all=np.var(r,axis=(0,1))
-var_err=np.var(r-m,axis=(0,1))
-ev=1-var_err/var_all
+r=np.reshape(r,(5,60,72,96,96))   #（繰り返し回数、時間、X、Y、Z）の5次元データにreshape
+m=np.mean(r,axis=0)   #繰り返し方向に平均
+var_all=np.var(r,axis=(0,1))   #ボクセルごとの時系列分散を計算
+var_err=np.var(r-m,axis=(0,1))   #エラー（平均周り）の分散を計算
+ev=1-var_err/var_all   #再現性指標EV値を計算
 
+### ここからは一覧表示のための可視化の操作（多次元認識の頭の体操）
 d4=np.reshape(ev,[9,8,96,96]) # (72,96,96) -> (9,8,96,96)
 d4=np.transpose(d4,[0, 2, 1, 3]) # -> (9,96,8,96)
 d2=np.reshape(d4,[9*96,8*96]) # -> (864,768)
 ev2d=d2
 
+ref2d=loaded['ref2d']
 plt.figure(figsize=(15,15))
 plt.imshow(ref2d,cmap='gray')
-plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)
+plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセルについて透過表示
 ```
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/ev_data1.png)<br />
