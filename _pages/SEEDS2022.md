@@ -73,7 +73,6 @@ y=x+np.sin(5*x)
 ### (3) ファイルを取得する
 
 今回の実習に必要なファイルをクラウドサーバ内にダウンロードする。<br />
-（以下の内容をColabコード枠内にコピー＆ペースト）
 
 ```python
 !wget https://www.dropbox.com/s/y232hg3tfm2c4u9/data_mc1.npz
@@ -116,7 +115,7 @@ plt.imshow(img,cmap='gray')
 
 <br />
 脳構造データの情報 [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0)
-- 被験者： 17歳女性/健康
+- 被験者: 17歳女性/健康
 - 解像度: 1.33x1.0x1.0mm
 - 撮像ボクセル数: (128, 192, 256)
 - 個人情報保護のためdeface処理済み
