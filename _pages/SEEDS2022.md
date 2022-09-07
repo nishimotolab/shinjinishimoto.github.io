@@ -123,7 +123,7 @@ plt.imshow(img,cmap='gray')
 
 
 練習問題：
-冠状断面および水平断面を表示してみましょう。
+冠状断面および水平断面を表示してみましょう。<br />
 ![ex]({{site.baseurl}}/images/seeds/anat_c.png) ![ex]({{site.baseurl}}/images/seeds/anat_h.png)
 
 
