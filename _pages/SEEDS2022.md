@@ -104,12 +104,11 @@ import matplotlib.pyplot as plt
 loaded=np.load('MRI_anat.npz')
 br=loaded['anat']
 
-img=br[85,:,:]
-img=np.transpose(img,[1,0])
-img=np.flipud(img)
+img=br[85,:,:]   #3次元のデータのうちのあるスライスを指定
+img=np.transpose(img,[1,0])   #０次元目と1次元目を入れ替え（転置）
 
 plt.figure(figsize=(10,10))
-plt.imshow(img,cmap='gray')
+plt.imshow(img,origin='lower',cmap='gray')
 ```
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
@@ -145,18 +144,18 @@ import matplotlib.pyplot as plt
 loaded=np.load('fMRI_data1.npz')
 ｒ=loaded['func']
 
-[x,y,z]=[29,70,44]
-r1=r[:,x,y,z]
-r1=np.reshape(r1,[5,60])
+[x,y,z]=[29,70,44]   #単一ボクセルの座標を指定
+r1=r[:,x,y,z]   #上記ボクセルの時系列データの取り出し
+r1=np.reshape(r1,[5,60])   #[繰り返し回数(5回） x ボリューム数（1ボリューム2秒 x 60 = 2分）]にreshape
 
 plt.plot(r1.T)
 plt.show()
 
-m1=np.mean(r1,axis=0)
-var_all=np.var(r1)
-var_err=np.var(r1-m1)
+m1=np.mean(r1,axis=0)   #繰り返し回数方向に平均
+var_all=np.var(r1)   #全体の分散を計算
+var_err=np.var(r1-m1)   #エラー（平均周りの分散）を計算
+ev=1-var_err/var_all   #再現性指標EV値を計算
 
-ev=1-var_err/var_all
 print('EV=%.3f'%ev)
 ```
 脳機能データ１の情報：
