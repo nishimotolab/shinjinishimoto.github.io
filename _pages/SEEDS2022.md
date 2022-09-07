@@ -72,20 +72,20 @@ y=x+np.sin(5*x)
 
 ### (3) ファイルを取得する
 
-今回の実習に必要なファイルをクラウドサーバ内にダウンロードする。<br />
+今回の実習に必要な3つのファイルをDropBoxからクラウドサーバ内にダウンロードする。<br />
 
 ```python
 !wget https://www.dropbox.com/s/upm85oj8rizkav4/MRI_anat.npz
 !wget https://www.dropbox.com/s/g68uu6swuk6zfxk/fMRI_data1.npz
 !wget https://www.dropbox.com/s/j55c318g56qa10p/fMRI_data2.npz
 ```
-
+メモ：　最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
+<br />
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="400px"}<br />
+ダウンロード確認：
 ![ex]({{site.baseurl}}/images/seeds/files.png){:width="400px"}
 
-メモ:
-最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
 
 <br />
 <br />
