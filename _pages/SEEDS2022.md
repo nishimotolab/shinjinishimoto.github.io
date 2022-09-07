@@ -115,12 +115,13 @@ plt.imshow(img,cmap='gray')
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
 
 <br />
-脳構造データの情報
+脳構造データの情報 [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0)
 - 被験者： 17歳女性/健康
 - 解像度: 1.33x1.0x1.0mm
 - 撮像ボクセル数: (128, 192, 256)
 - 個人情報保護のためdeface処理済み
 
+<br />
 
 練習問題：
 冠状断面および水平断面を表示してみましょう。<br />
