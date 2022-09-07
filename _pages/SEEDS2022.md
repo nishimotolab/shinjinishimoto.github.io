@@ -146,7 +146,7 @@ import matplotlib.pyplot as plt
 loaded=np.load('fMRI_data1.npz')
 ｒ=loaded['func']   #脳機能データ（4次元; 時間-X-Y-Z）を読み出し
 
-r1=r[:,29,70,44]   #ある一座標（単一ボクセル）の時系列データの取り出し
+r1=r[:,29,70,44]   #ある一座標（単一ボクセル）の応答時系列の取り出し
 r1=np.reshape(r1,[5,60])   #[繰り返し回数(5回） x 時間サンプル数（120秒/（2秒/サンプル）=60サンプル）]にreshape
 
 plt.plot(r1.T)
@@ -156,7 +156,7 @@ plt.show()
 m1=np.mean(r1,axis=0)   #繰り返し回数方向に平均
 var_all=np.var(r1)   #全体の分散を計算
 var_err=np.var(r1-m1)   #エラー（平均周りの分散）を計算
-ev=1-var_err/var_all   #再現性指標EV値を計算
+ev=1-var_err/var_all   #応答再現性指標EV値を計算
 
 print('EV=%.3f'%ev)
 ```
@@ -189,12 +189,12 @@ loaded=np.load('fMRI_data1.npz')
 r=loaded['func']
 
 r=np.reshape(r,(5,60,72,96,96))   #（繰り返し回数-時間-X-Y-Z）の5次元データにreshape
-m=np.mean(r,axis=0)   #繰り返し方向に平均
+m=np.mean(r,axis=0)   #繰り返し回数方向に平均
 var_all=np.var(r,axis=(0,1))   #ボクセルごとの時系列分散を計算
 var_err=np.var(r-m,axis=(0,1))   #エラー（平均周り）の分散を計算
-ev=1-var_err/var_all   #再現性指標EV値を計算
+ev=1-var_err/var_all   #応答再現性指標EV値を計算
 
-### ここからはスライス一覧表示のための操作（多次元認識のための頭の体操？）
+### スライス一覧表示のための操作（多次元認識のための頭の体操？）
 d4=np.reshape(ev,[9,8,96,96])
 d4=np.transpose(d4,[0, 2, 1, 3])
 d2=np.reshape(d4,[9*96,8*96])
