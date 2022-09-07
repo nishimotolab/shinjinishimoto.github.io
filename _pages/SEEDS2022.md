@@ -115,9 +115,9 @@ plt.imshow(img,cmap='gray')
 
 <br />
 脳構造データの情報 [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0)
-- 被験者: 17歳女性/健康
-- 解像度: 1.33x1.0x1.0mm
-- 撮像ボクセル数: (128, 192, 256)
+- 被験者：　17歳女性/健康
+- 解像度：　1.33x1.0x1.0mm
+- 撮像ボクセル数：　(128, 192, 256)
 - 個人情報保護のためdeface処理済み
 
 <br />
