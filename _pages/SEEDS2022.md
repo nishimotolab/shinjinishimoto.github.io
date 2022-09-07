@@ -34,8 +34,8 @@ print(y)
 ### (2) 作図する（関数プロット）
 
 ```python
-import numpy as np   #数値計算モジュールNumPyを読み出してnpと名付ける
-import matplotlib.pyplot as plt   #作図用モジュールを読み出してpltと名付ける
+import numpy as np   #数値計算用ライブラリNumPyを読み出してnpと名付ける
+import matplotlib.pyplot as plt   #作図用ライブラリを読み出してpltと名付ける
 
 x=np.arange(-3,3,0.01)   #-3から3まで0.01刻みで大きくなる等差数列を作ってxに代入
 y=x**2   #Pythonではaのn乗をa**nと書く
