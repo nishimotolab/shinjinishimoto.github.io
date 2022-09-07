@@ -200,8 +200,8 @@ d4=np.transpose(d4,[0, 2, 1, 3])
 d2=np.reshape(d4,[9*96,8*96])
 ev2d=d2
 
-ref2d=loaded['ref2d']
 plt.figure(figsize=(15,15))
+ref2d=loaded['ref2d']
 plt.imshow(ref2d,cmap='gray')   #参照用の脳の形を背景として表示（水平断面の一覧表示）
 plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセルについて透過表示
 ```
