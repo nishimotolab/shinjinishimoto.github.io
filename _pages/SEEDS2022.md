@@ -83,8 +83,8 @@ y=x+np.sin(5*x)
 ```
 
 実行例：
-![ex]({{site.baseurl}}/images/seeds/download_ex.png)
-![ex]({{site.baseurl}}/images/seeds/files.png)
+![ex]({{site.baseurl}}/images/seeds/download_ex.png=100x)
+![ex]({{site.baseurl}}/images/seeds/files.png=100x)
 
 メモ:
 最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
@@ -116,8 +116,8 @@ plt.imshow(img,cmap='gray')
 
 <br />
 脳構造データの情報
-- 被験者： 17歳女性
-- 解像度: 1mm角
+- 被験者： 17歳女性/健康
+- 解像度: 1.33x1.0x1.0mm
 - 撮像ボクセル数: (128, 192, 256)
 - 個人情報保護のためdeface処理済み
 
