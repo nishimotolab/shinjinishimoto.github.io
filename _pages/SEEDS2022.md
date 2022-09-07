@@ -81,9 +81,12 @@ y=x+np.sin(5*x)
 !wget https://www.dropbox.com/s/zca9fbkqqdgv9rr/data_dt1.npz
 !wget https://www.dropbox.com/s/nw8y849b3xbgirk/data_dt2.npz
 ```
+
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/files.png)
 
+メモ:
+最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
 
 <br />
 <br />
@@ -99,7 +102,6 @@ import matplotlib.pyplot as plt
 data=np.load('MRI_anat.npz')
 anat=data['anat']
 
-print(anat.shape)
 plt.figure(figsize=(10,10))
 img=anat[45,:,:]
 plt.imshow(img,cmap='gray')
@@ -108,6 +110,15 @@ plt.imshow(img,cmap='gray')
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
 
 <br />
+脳構造データの情報
+- 被験者： 17歳女性
+- 解像度: 1mm角
+- 撮像ボクセル数: (128, 192, 256)
+- 個人情報保護のためdeface処理済み
+
 
 練習問題：
+冠状断面および水平断面を表示してみましょう。
+![ex]({{site.baseurl}}/images/seeds/anat_c.png) ![ex]({{site.baseurl}}/images/seeds/anat_h.png)
+
 
