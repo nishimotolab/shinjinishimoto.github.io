@@ -111,13 +111,17 @@ plt.imshow(img,cmap='gray')
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
 
-<br />
-脳構造データの情報　　（[LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0)より）
+脳構造データの情報　
 - 被験者：　17歳女性/健康
 - 解像度：　1.33x1.0x1.0mm
 - 撮像ボクセル数：　(128, 192, 256)
 - 個人情報保護のためdeface処理済み
+- 公開データ[LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0)から取得（CC0）
 
+<br />
+
+発展：
+画像表示のオプションを知りたい→「matplotlib imshow 使い方」等で検索
 <br />
 
 練習問題：
