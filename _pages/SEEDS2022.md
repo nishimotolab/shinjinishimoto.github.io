@@ -83,6 +83,7 @@ y=x+np.sin(5*x)
 ```
 
 実行例：
+![ex]({{site.baseurl}}/images/seeds/download_ex.png)
 ![ex]({{site.baseurl}}/images/seeds/files.png)
 
 メモ:
@@ -99,12 +100,16 @@ y=x+np.sin(5*x)
 import numpy as np
 import matplotlib.pyplot as plt
 
-data=np.load('MRI_anat.npz')
-anat=data['anat']
+loaded=np.load('MRI_anat.npz')
+br=loaded['anat']
+
+img=br[85,:,:]
+img=np.transpose(img,[1,0])
+img=np.flipud(img)
 
 plt.figure(figsize=(10,10))
-img=anat[45,:,:]
 plt.imshow(img,cmap='gray')
+
 ```
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
