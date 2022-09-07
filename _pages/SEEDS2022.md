@@ -166,9 +166,14 @@ print('EV=%.3f'%ev)
 - 刺激：　2分間（120秒）の動画の5回繰り返し
 
 <br />
-実行例：
+実行例1（座標29,70,44）：
 ![ex]({{site.baseurl}}/images/seeds/ev_plot.png)<br />
 EV=0.824
+
+<br />
+実行例2（座標25,81,57）：
+![ex]({{site.baseurl}}/images/seeds/ev_plot_low.png)<br />
+EV=0.176
 
 <br />
 <br />
