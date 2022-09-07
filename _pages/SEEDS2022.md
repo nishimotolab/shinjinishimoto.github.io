@@ -82,7 +82,7 @@ y=x+np.sin(5*x)
 メモ：　最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
 <br />
 実行例：
-![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="400px"}<br />
+![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="500px"}<br />
 ダウンロード確認：
 ![ex]({{site.baseurl}}/images/seeds/files.png){:width="400px"}
 
