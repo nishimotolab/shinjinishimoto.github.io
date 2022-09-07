@@ -10,7 +10,9 @@ permalink: /SEEDS2022
 <br />
 
 
-このページは大阪大学SEEDS体感科学研究2022年度T2216の参照用ページです。閲覧は受講者および関係者に限ります。
+このページは大阪大学SEEDS体感科学研究2022年度T2216の参照用ページです。<br />
+閲覧は受講者および関係者に限ります。<br />
+講義中に提示された資料と合わせて利用してください。
 
 <br />
 <br />
@@ -92,7 +94,7 @@ y=x+np.sin(5*x)
 <br />
 
 
-### (4) 脳構造データを描画する
+### (4) 脳構造データを扱う（脳断面の表示）
 
 脳構造データを読み込んで矢状断面を描画する。
 ```python
@@ -112,7 +114,7 @@ plt.imshow(img,cmap='gray')
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
 
-脳構造データの情報　
+脳構造データの情報：
 - 被験者：　17歳女性/健康
 - 解像度：　1.33x1.0x1.0mm
 - 撮像ボクセル数：　(128, 192, 256)
@@ -129,4 +131,74 @@ plt.imshow(img,cmap='gray')
 冠状断面および水平断面を表示してみよう。<br />
 ![ex]({{site.baseurl}}/images/seeds/anat_c.png) ![ex]({{site.baseurl}}/images/seeds/anat_h.png)
 
+<br />
+<br />
 
+
+### (5) 脳機能データを扱う（単一ボクセル活動の解析）
+
+単一ボクセルの応答を取り出して表示する。
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+loaded=np.load('fMRI_data1.npz')
+ｒ=loaded['func']
+
+[x,y,z]=[29,70,44]
+r1=r[:,x,y,z]
+r1=np.reshape(r1,[5,60])
+
+plt.plot(r1.T)
+plt.show()
+
+m1=np.mean(r1,axis=0)
+var_all=np.var(r1)
+var_err=np.var(r1-m1)
+
+ev=1-var_err/var_all
+print('EV=%.3f'%ev)
+```
+脳機能データ１の情報：
+- 解像度： 2x2x2mm
+- 撮像ボクセル数：　(72,96,96）
+- 撮像時間：　2秒/全脳
+- 撮像ボリューム数：　300
+- 刺激：　2分間（120秒）の動画の5回繰り返し
+
+<br />
+実行例：
+![ex]({{site.baseurl}}/images/seeds/ev_plot.png)<br />
+EV=0.824
+
+<br />
+<br />
+
+### (6) 脳機能データを扱う（全脳活動の解析）
+
+全脳の応答再現性を計算して表示する。
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+loaded=np.load('fMRI_data1.npz')
+r=loaded['func']
+ref2d=loaded['ref2d']
+
+r=np.reshape(r,(5,60,72,96,96))
+m=np.mean(r,axis=0)
+var_all=np.var(r,axis=(0,1))
+var_err=np.var(r-m,axis=(0,1))
+ev=1-var_err/var_all
+
+d4=np.reshape(ev,[9,8,96,96]) # (72,96,96) -> (9,8,96,96)
+d4=np.transpose(d4,[0, 2, 1, 3]) # -> (9,96,8,96)
+d2=np.reshape(d4,[9*96,8*96]) # -> (864,768)
+ev2d=d2
+
+plt.figure(figsize=(15,15))
+plt.imshow(ref2d,cmap='gray')
+plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)
+```
+実行例：
+![ex]({{site.baseurl}}/images/seeds/ev_data1.png)<br />
