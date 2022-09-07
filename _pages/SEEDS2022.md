@@ -83,7 +83,7 @@ y=x+np.sin(5*x)
 ```
 
 実行例：
-![ex]({{site.baseurl}}/images/seeds/download_ex.png=100x)
+![ex]({{site.baseurl}}/images/seeds/download_ex.png){:height="36px"}
 ![ex]({{site.baseurl}}/images/seeds/files.png=100x)
 
 メモ:
