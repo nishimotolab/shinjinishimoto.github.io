@@ -80,11 +80,12 @@ y=x+np.sin(5*x)
 !wget https://www.dropbox.com/s/j55c318g56qa10p/fMRI_data2.npz
 ```
 メモ：　最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。
+メモ：　「.npz」はNumPyデータを扱うファイル形式の一つ。
 <br />
 実行例：
-![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="500px"}<br />
-ダウンロード確認：
-![ex]({{site.baseurl}}/images/seeds/files.png){:width="400px"}
+![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="600px"}<br />
+ダウンロードされたことを確認：
+![ex]({{site.baseurl}}/images/seeds/files.png){:width="300px"}
 
 
 <br />
@@ -116,7 +117,7 @@ plt.imshow(img,cmap='gray')
 - 解像度：　1.33x1.0x1.0mm
 - 撮像ボクセル数：　(128, 192, 256)
 - 個人情報保護のためdeface処理済み
-- 公開データ[LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0)から取得（CC0）
+- 公開データ [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
 
 <br />
 
