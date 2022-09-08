@@ -17,13 +17,24 @@ permalink: /SEEDS2022
 <br />
 <br />
 
-## 実験施設見学（実地見学もしくは動画）
+## 実験施設紹介（実地見学もしくは動画）
 <br />
-オンライン参加もしくは見学順番待ちの時間には下記の動画を視聴してください。<br />
+オンライン参加、もしくは見学順番待ちの時間には下記の動画を視聴してください。<br />
+（この時間に一人ずつGoogle Colab環境の確認を行うので、TAからの指示に従ってください。）<br />
 <br />
 
-**CiNet紹介**
-https://www.youtube.com/watch?v=25auAmwsq8M
+**CiNet施設・環境紹介（短縮版）**
+[https://www.youtube.com/watch?v=25auAmwsq8M](https://www.youtube.com/watch?v=25auAmwsq8M)<br />
+
+
+その他：<br />
+**Reading Minds**
+[https://www.youtube.com/watch?v=z8iEogscUl8](https://www.youtube.com/watch?v=z8iEogscUl8)<br />
+Nature誌編集部による脳解読（デコーディング）研究分野の紹介。英語に自身がある人向け。<br />
+
+**大阪大学　総合型・学校推薦型選抜入学者インタビュー**
+[https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM)<br />
+
 
 <br />
 <br />
