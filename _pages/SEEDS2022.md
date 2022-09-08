@@ -24,7 +24,7 @@ permalink: /SEEDS2022
 <br />
 
 **CiNet施設・環境紹介（短縮版）**<br />
-[https://www.youtube.com/watch?v=25auAmwsq8M](https://www.youtube.com/watch?v=25auAmwsq8M)<br />
+[https://www.youtube.com/watch?v=25auAmwsq8M](https://www.youtube.com/watch?v=25auAmwsq8M){:target="_blank"}<br />
 
 <br />
 <br />
@@ -32,15 +32,15 @@ permalink: /SEEDS2022
 時間があればこちらも御覧ください：<br />
 <br />
 **NICT CiNet 脳情報通信技術**<br />
-[https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M)<br />
+[https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M){:target="_blank"}<br />
 <br />
 
 **大阪大学 総合型・学校推薦型選抜 入学者インタビュー**<br />
-[https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM)<br />
+[https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM){:target="_blank"}<br />
 <br />
 
 **Reading Minds**<br />
-[https://www.youtube.com/watch?v=z8iEogscUl8](https://www.youtube.com/watch?v=z8iEogscUl8)<br />
+[https://www.youtube.com/watch?v=z8iEogscUl8](https://www.youtube.com/watch?v=z8iEogscUl8){:target="_blank"}<br />
 Nature誌編集部による脳解読（デコーディング）研究分野の紹介。英語。<br />
 
 <br />
@@ -50,7 +50,7 @@ Nature誌編集部による脳解読（デコーディング）研究分野の�
 
 ### (0) Google Colab利用の準備を行う
 
-1. Google Colabを開く [https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja) <br />
+1. Google Colabを開く [https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja){:target="_blank"}<br />
 2. （ファイルー）「ノートブックを新規作成」
 ![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="640px"}
 3. 再生ボタン（左上部の右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う
