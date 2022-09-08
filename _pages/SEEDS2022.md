@@ -13,11 +13,11 @@ permalink: /SEEDS2022
 このページは大阪大学SEEDS体感科学研究2022年度T2216の参照用ページです。<br />
 閲覧は受講者および関係者に限ります。<br />
 
-{:toc}
+
 <br />
 <br />
 
-## 実験施設紹介（実地見学もしくは動画）
+## 実験環境紹介（実地見学もしくは動画）
 <br />
 オンライン参加、もしくは見学順番待ちの時間には下記の動画を視聴してください。<br />
 （この時間に一人ずつGoogle Colab環境の確認を行うので、TAからの指示に従ってください。）<br />
@@ -31,13 +31,13 @@ permalink: /SEEDS2022
 
 時間があればこちらも御覧ください：<br />
 <br />
-**大阪大学　総合型・学校推薦型選抜入学者インタビュー**<br />
-[https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM)<br />
+**NICT CiNet 脳情報通信技術**<br />
+[https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M)
 
 <br />
 
-**NICT CiNet 脳情報通信技術**<br />
-[https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M)
+**大阪大学　総合型・学校推薦型選抜入学者インタビュー**<br />
+[https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM)<br />
 
 <br />
 
@@ -298,4 +298,11 @@ Pythonについてより体系的に学びたい人に（東京大学の授業�
 [Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf)<br />
 <br />
 <br />
+脳についてもっと知りたい方に（関連書籍）<br />
+- [火星の人類学者──脳神経科医と７人の奇妙な患者](https://www.hayakawa-online.co.jp/product/books/90251.html)（医学エッセイ１）
+- [脳の中の幽霊](https://www.kadokawa.co.jp/product/200805000103/)（医学エッセイ２）
+- [しあわせの理由](https://www.hayakawa-online.co.jp/product/books/11451.html)（脳神経科学等に関する短編SF集）
+- [単純な脳、複雑な「私」](https://bluebacks.kodansha.co.jp/books/9784062578301/appendix/)（現役脳神経科学者の高校生向け講義をまとめたもの）
+- [カンデル神経科学 第2版](https://www.medsi.co.jp/products/detail/3862)（定番教科書の最新版。2022年9月末発刊予定。高いので図書館で読む等）
+
 
