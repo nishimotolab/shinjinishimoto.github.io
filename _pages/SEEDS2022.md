@@ -33,12 +33,10 @@ permalink: /SEEDS2022
 <br />
 **NICT CiNet 脳情報通信技術**<br />
 [https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M)
-
 <br />
 
-**大阪大学　総合型・学校推薦型選抜入学者インタビュー**<br />
+**大阪大学 総合型・学校推薦型選抜 入学者インタビュー**<br />
 [https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM)<br />
-
 <br />
 
 **Reading Minds**<br />
@@ -61,7 +59,7 @@ Nature誌編集部による脳解読（デコーディング）研究分野の�
 <br />
 **Google Colabとは**
 - Google社が提供するオンラインのPythonプログラミング環境
-- ブラウザ（Safari、Edge、Chrome等）上で動作する
+- ブラウザ（Edge, Safari、Chrome等）上で動作する
 - ブラウザが動くならユーザー側の環境はタブレット（iPad等）やスマートフォン等でも可
 - 実際の計算は個々に割り当てられたGoogle Colabクラウドサーバ（世界のどこかにあるコンピュータ）上で行われる
 - 割り当てられたクラウドサーバは最大で12時間連続で利用できる（無料利用の場合）
