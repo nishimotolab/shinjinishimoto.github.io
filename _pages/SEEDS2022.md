@@ -24,7 +24,7 @@ permalink: /SEEDS2022
 3. 再生ボタン（右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う
 <br />
 **Google Colabとは**
-- Google社が提供するオンラインのPython実行環境
+- Google社が提供するオンラインのPythonプログラミング環境
 - ブラウザ（Safari、Edge、Chrome等）上で動作する
 - ブラウザが動くならユーザー側の環境はタブレット（iPad等）やスマートフォン等でも可
 - 実際の計算は個々に割り当てられたGoogle Colabクラウドサーバ（世界のどこかにあるコンピュータ）上で行われる
@@ -38,14 +38,14 @@ permalink: /SEEDS2022
 ### (1) Google Colabを動かす（簡単な計算）
 Google Colabに接続し、「+コード」で新しいセルを開いて下記を入力し、実行（再生ボタン）を押す。
 ```python
-x=5*2
-y=x+7
+x=5+6
+y=2*x
 print(y)
 ```
 結果例：
 ![ex]({{site.baseurl}}/images/seeds/colab1.png){:width="500px"}
 <br />
-上記のように正しい答え（17）が返ってきたらGoogle Colabクラウドサーバの割り当てと接続が正常に行われている<br />
+上記のように正しい答え（22）が返ってきたらGoogle Colabクラウドサーバの割り当てと接続が正常に行われている<br />
 
 <br />
 <br />
