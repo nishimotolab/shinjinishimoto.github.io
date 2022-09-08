@@ -121,7 +121,13 @@ y=x+np.sin(5*x)
 
 ### (4) 脳構造（MRI）データを扱う（ヒト脳断面の表示）
 
-脳構造データを読み込んで脳断面を描画する。
+脳構造データを読み込んで脳断面を描画する。<br />
+使用する脳構造データの情報：
+- 被験者：　17歳女性/健康
+- 撮像の空間解像度：　1.3 x 1.0 x 1.0 mm
+- 撮像ボクセル数：　(128, 192, 256)
+- 個人情報保護のためdeface処理済み
+- 公開データ [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -137,13 +143,6 @@ plt.imshow(img,origin='lower',cmap='gray')
 ```
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
-
-脳構造データの情報：
-- 被験者：　17歳女性/健康
-- 撮像の空間解像度：　1.3 x 1.0 x 1.0 mm
-- 撮像ボクセル数：　(128, 192, 256)
-- 個人情報保護のためdeface処理済み
-- 公開データ [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
 
 <br />
 <br />
