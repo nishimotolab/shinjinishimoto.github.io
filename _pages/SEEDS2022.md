@@ -143,19 +143,19 @@ plt.imshow(img,origin='lower',cmap='gray')
 ```
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
+<br />
+発展：
+画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索<br />
+<br />
 
-<br />
-<br />
 参考：　脳断面の名前 (Credit: Zwarck, CC BY-SA 3.0)<br />
 ![ex]({{site.baseurl}}/images/seeds/800px-AxesAnatomieCerveauJA.svg.png){:width="400px"}<br />
 <br />
 
-発展：
-画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索
-<br />
 
 **練習問題**：
 冠状（前頭）断面および水平（横）断面を表示してみましょう。<br />
+（ヒント：上記のコードについてスライスの方向や位置を修正）<br />
 ![ex]({{site.baseurl}}/images/seeds/anat_c.png) ![ex]({{site.baseurl}}/images/seeds/anat_h.png)
 
 <br />
