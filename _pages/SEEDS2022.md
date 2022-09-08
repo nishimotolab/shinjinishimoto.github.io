@@ -297,9 +297,9 @@ plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセ�
 <br />
 発展：<br />
 Pythonについてより体系的に学びたい人に（東京大学の授業用教材）<br />
-- [Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/){:target="_blank"}<br />
-- [Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf){:target="_blank"}<br />
-　（丁寧に書かれており、高校生でも自習でかなり進められると思われる）
+- [Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/){:target="_blank"}
+- [Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf){:target="_blank"}
+（丁寧に書かれており、高校生でも自習でかなり進められると思われる）
 <br />
 
 脳についてもっと知りたい人に（関連書籍）<br />
