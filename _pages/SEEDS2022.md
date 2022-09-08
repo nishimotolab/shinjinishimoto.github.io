@@ -161,8 +161,7 @@ plt.imshow(img,origin='lower',cmap='gray')
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
 <br />
-発展：
-画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索<br />
+発展：　画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索<br />
 <br />
 
 参考：　脳断面の名前 (Credit: Zwarck, CC BY-SA 3.0)<br />
@@ -223,6 +222,7 @@ print('EV=%.3f'%ev)
 $$
  EV = 1-\dfrac{var(error)}{var(all)}
 $$ <br />
+<br />
 EV = (stimulus-) Explained Variance<br />
 <br />
 <br />
