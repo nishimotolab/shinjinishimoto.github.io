@@ -18,14 +18,17 @@ permalink: /SEEDS2022
 <br />
 
 ### (1) Google Colabを動かす（簡単な計算）
-
+Google Colabに接続し、「+コード」で新しいセルを開いて書きを入力し、実行（再生ボタン）を押す。
 ```python
 x=5
 y=2*x+7
 print(y)
 ```
 結果例：
-17
+![ex]({{site.baseurl}}/images/seeds/colab1.png)
+<br />
+メモ：　上記のように答え（17）が帰ってきたらGoogle Colabのクラウドサーバの確保と接続ができている<br />
+メモ：　もしクラウドサーバとしてどの地域にあるものが割り当てられたのかを知りたければ「!curl ipinfo.io」と入力して実行
 
 <br />
 <br />
@@ -224,8 +227,8 @@ plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセ�
 <br />
 発展：<br />
 Pythonについてより体系的に学びたい人に（東京大学の授業用教材）<br />
-![Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/)<br />
-![Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf)<br />
+[Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/)<br />
+[Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf)<br />
 <br />
 <br />
 
