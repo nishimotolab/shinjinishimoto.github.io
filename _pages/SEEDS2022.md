@@ -114,10 +114,8 @@ y=x+np.sin(5*x)
 ```
 <br />
 
-:::note
 - 他の関数について知りたい→「numpy 指数関数」等でWeb検索
 - 他のプロットについて知りたい→「matplotlib　例」等でWeb検索
-:::
 
 <br />
 
@@ -181,8 +179,7 @@ plt.imshow(img,origin='lower',cmap='gray',vmax=160)
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
 <br />
-発展：<br />
-画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索<br />
+- 画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索<br />
 <br />
 
 参考：<br />
@@ -296,7 +293,7 @@ plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセ�
 　　ヒント：データはコンピュータメモリ上に1次元的に並んでいる。reshapeはその解釈を変える。trasnposeは配置を変える。<br />
 
 <br />
-発展：<br />
+<br />
 Pythonについてより体系的に学びたい人に（東京大学の授業用教材）<br />
 - [Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/){:target="_blank"}
 - [Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf){:target="_blank"}<br />
