@@ -19,7 +19,7 @@ permalink: /SEEDS2022
 ### (0) Google Colab利用の準備を行う
 
 1. Googleアカウントを作成する
-2. Google Colabを開く (https://colab.research.google.com/?hl=ja) <br />
+2. Google Colabを開く [https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja) <br />
 ![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="600px"}
 3. 再生ボタン（右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う
 <br />
