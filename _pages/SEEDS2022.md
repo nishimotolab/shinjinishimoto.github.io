@@ -16,7 +16,7 @@ permalink: /SEEDS2022
 <br />
 <br />
 
-### (0) Google Colabを開く
+### (0) Google Colab利用の準備を行う
 
 1. Googleアカウントを作成する
 2. Google Colabを開く (https://colab.research.google.com/?hl=ja)
