@@ -27,8 +27,10 @@ permalink: /SEEDS2022
 [https://www.youtube.com/watch?v=25auAmwsq8M](https://www.youtube.com/watch?v=25auAmwsq8M)<br />
 
 <br />
+<br />
 
-時間があればこちらも：<br />
+時間があればこちらも御覧ください：<br />
+<br />
 **大阪大学　総合型・学校推薦型選抜入学者インタビュー**<br />
 [https://www.youtube.com/watch?v=p5FqIeEu_kM](https://www.youtube.com/watch?v=p5FqIeEu_kM)<br />
 
