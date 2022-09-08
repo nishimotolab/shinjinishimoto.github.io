@@ -221,8 +221,8 @@ print('EV=%.3f'%ev)
 ![ex]({{site.baseurl}}/images/seeds/ev_plot_low.png) EV=0.176<br />
 
 $$
- EV = 1-\frac{var(error)}{var(all)}
-$$
+ EV = 1-\dfrac{var(error)}{var(all)}
+$$ <br />
 EV = (stimulus-) Explained Variance<br />
 <br />
 <br />
