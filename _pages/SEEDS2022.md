@@ -222,7 +222,8 @@ plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセ�
 難(3) 上記の応答再現性解析の結果を矢状断面スライス一覧（背景、EVともに）で表示してみましょう。（上記では物足りない人向け）<br />
 
 <br />
-発展：　さらにPythonについて知りたい人に（東京大学の授業資料）：<br />
+発展：<br />
+Pythonについてより体系的に学びたい人に（東京大学の授業資料）<br />
 ![Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/)<br />
 ![Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf)<br />
 <br />
