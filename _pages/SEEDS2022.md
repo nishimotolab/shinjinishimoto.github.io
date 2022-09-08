@@ -13,6 +13,7 @@ permalink: /SEEDS2022
 このページは大阪大学SEEDS体感科学研究2022年度T2216の参照用ページです。<br />
 閲覧は受講者および関係者に限ります。<br />
 
+{:toc}
 <br />
 <br />
 
@@ -28,7 +29,6 @@ https://www.youtube.com/watch?v=25auAmwsq8M
 <br />
 
 ## 解析体験
-<br />
 
 ### (0) Google Colab利用の準備を行う
 
