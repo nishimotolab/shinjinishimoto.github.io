@@ -82,8 +82,8 @@ y=x+np.sin(5*x)
 <br />
 
 発展：
-- 他の関数について知りたい→「numpy 指数関数」等で検索
-- 他のプロットについて知りたい→「matplotlib　例」等で検索
+- 他の関数について知りたい→「numpy 指数関数」等でWeb検索
+- 他のプロットについて知りたい→「matplotlib　例」等でWeb検索
 
 <br />
 
@@ -129,7 +129,7 @@ import matplotlib.pyplot as plt
 loaded=np.load('MRI_anat.npz')
 br=loaded['anat']   #脳構造データ（3次元; X-Y-Z）を読み出し
 
-img=br[85,:,:]   #3次元のデータのうちのある１スライスを指定。「:」はその次元のすべてのデータという意味
+img=br[85,:,:]   #3次元のデータのうちのある１断面（スライス）を指定。「:」はその次元のすべてのデータという意味
 img=np.transpose(img,[1,0])   #０次元目と1次元目を入れ替え（転置、ここでは表示のため）
 
 plt.figure(figsize=(10,10))
@@ -148,12 +148,11 @@ plt.imshow(img,origin='lower',cmap='gray')
 <br />
 <br />
 参考：　脳断面の名前<br />
-![ex]({{site.baseurl}}/images/seeds/800px-AxesAnatomieCerveauJA.svg.png){:width="400px"}<br />
-Credit: Zwarck, CC BY-SA 3.0
+![ex]({{site.baseurl}}/images/seeds/800px-AxesAnatomieCerveauJA.svg.png){:width="400px"} Credit: Zwarck, CC BY-SA 3.0</br>
 <br />
 
 発展：
-画像表示のオプションを知りたい→「matplotlib imshow 使い方」等で検索
+画像表示のオプションを知りたい→「matplotlib imshow 使い方」等でWeb検索
 <br />
 
 **練習問題**：
@@ -247,7 +246,7 @@ plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセ�
 (2) (1)の結果および脳機能の局在性から、どちらのデータが(A)(B)どちらの刺激を用いていたのか推定してみましょう。<br />
 　　ヒント：ヒト脳における視覚野と聴覚野の位置<br />
 <br />
-難(3) （上記では物足りない人向け）上記の応答再現性解析の結果を矢状断面スライス一覧を（背景、EVともに）表示してみましょう。<br />
+難(3) （上記では物足りない人向け）上記の応答再現性解析の結果について矢状断面スライスの形式で（背景、EVともに）表示してみましょう。<br />
 
 <br />
 発展：<br />
