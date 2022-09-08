@@ -306,4 +306,7 @@ Pythonについてより体系的に学びたい人に（東京大学の授業�
 - [単純な脳、複雑な「私」](https://bluebacks.kodansha.co.jp/books/9784062578301/appendix/)（現役脳神経科学者の高校生向け講義をまとめたもの）
 - [カンデル神経科学 第2版](https://www.medsi.co.jp/products/detail/3862)（定番教科書の最新版。2022年9月末発刊予定。高いので図書館で読む等）
 
+<br />
+<br />
+<br />
 
