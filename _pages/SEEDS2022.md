@@ -302,10 +302,10 @@ Pythonについてより体系的に学びたい人に（東京大学の授業�
 <br />
 
 脳についてもっと知りたい方に（関連書籍）<br />
-- [火星の人類学者──脳神経科医と７人の奇妙な患者](https://www.hayakawa-online.co.jp/product/books/90251.html){:target="_blank"}（医学エッセイ１）
-- [脳の中の幽霊](https://www.kadokawa.co.jp/product/200805000103/){:target="_blank"}（医学エッセイ２）
+- [火星の人類学者──脳神経科医と７人の奇妙な患者](https://www.hayakawa-online.co.jp/product/books/90251.html){:target="_blank"}（脳神経科医師のエッセイ）
+- [脳の中の幽霊](https://www.kadokawa.co.jp/product/200805000103/){:target="_blank"}（脳神経科学者のエッセイ）
 - [しあわせの理由](https://www.hayakawa-online.co.jp/product/books/11451.html){:target="_blank"}（脳神経科学等に関する短編SF集）
-- [単純な脳、複雑な「私」](https://bluebacks.kodansha.co.jp/books/9784062578301/appendix/){:target="_blank"}（現役脳神経科学者の高校生向け講義をまとめたもの）
+- [単純な脳、複雑な「私」](https://bluebacks.kodansha.co.jp/books/9784062578301/appendix/){:target="_blank"}（脳神経科学者の高校生向け講義をまとめたもの）
 - [カンデル神経科学 第2版](https://www.medsi.co.jp/products/detail/3862){:target="_blank"}（定番教科書の最新版。2022年9月末発刊予定。高いので図書館で読む等）
 
 <br />
