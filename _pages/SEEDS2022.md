@@ -200,14 +200,19 @@ print('EV=%.3f'%ev)
 
 <br />
 実行例1（座標29,70,44）：
-![ex]({{site.baseurl}}/images/seeds/ev_plot.png) EV=0.824
+![ex]({{site.baseurl}}/images/seeds/ev_plot.png) EV=0.824<br />
 
 <br />
 実行例2（座標25,81,57）：
-![ex]({{site.baseurl}}/images/seeds/ev_plot_low.png) EV=0.176
+![ex]({{site.baseurl}}/images/seeds/ev_plot_low.png) EV=0.176<br />
 
+$$
+ EV = 1-\frac{var(error)}{var(all)}
+$$
+EV = (stimulus-) Explained Variance<br />
 <br />
 <br />
+
 
 ### (6) 脳機能（fMRI）データを扱う２ （全脳の応答再現性解析）
 
