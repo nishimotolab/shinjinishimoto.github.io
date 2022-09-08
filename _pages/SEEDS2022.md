@@ -175,7 +175,7 @@ img=br[85,:,:]   #3次元のデータのうちのある１断面（スライス�
 img=np.transpose(img,[1,0])   #０次元目と1次元目を入れ替え（転置、ここでは表示のため）
 
 plt.figure(figsize=(10,10))
-plt.imshow(img,origin='lower',cmap='gray')
+plt.imshow(img,origin='lower',cmap='gray',vmax=160)
 ```
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/anat_s.png)
