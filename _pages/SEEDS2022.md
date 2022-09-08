@@ -16,6 +16,24 @@ permalink: /SEEDS2022
 
 <br />
 <br />
+### (0) Google Colabを開く
+
+1. Googleアカウントを作成する
+2. Google Colabを開く (https://colab.research.google.com/?hl=ja)
+![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="500px"}
+3. 再生ボタン（右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う
+
+**Google Colabとは**
+- Google社が提供するオンラインのPython実行環境
+- ブラウザ（Chrome、Edge等）上で動作する
+- ブラウザが動くならユーザー側の環境はタブレット（iPad等）やスマートフォン（Android等）でも可
+- 実際の計算は個々に割り当てられたGoogle Colabクラウドサーバ上で行われる
+- Google Colabクラウドサーバは最大で12時間連続で利用できる（無料利用の場合）
+
+メモ：　割り当てられたサーバがどの地域にあるかを調べたければ「!curl ipinfo.io」で実行（再生ボタン）。<br />
+
+<br />
+<br />
 
 ### (1) Google Colabを動かす（簡単な計算）
 Google Colabに接続し、「+コード」で新しいセルを開いて下記を入力し、実行（再生ボタン）を押す。
@@ -87,14 +105,16 @@ y=x+np.sin(5*x)
 !wget https://www.dropbox.com/s/g68uu6swuk6zfxk/fMRI_data1.npz
 !wget https://www.dropbox.com/s/j55c318g56qa10p/fMRI_data2.npz
 ```
-メモ：　最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。<br />
-メモ：　「.npz」はNumPyデータを扱うファイル形式の一つ。
-<br />
 実行例：
 ![ex]({{site.baseurl}}/images/seeds/download_ex.png){:width="600px"}<br />
 ファイルがダウンロードされたことを確認：
 ![ex]({{site.baseurl}}/images/seeds/files.png){:width="300px"}
 
+メモ：　
+- 最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。<br />
+- 　「.npz」はNumPyデータを扱うファイル形式の一つ。<br />
+- 　同じサーバを利用し続ける限り上記のファイルが利用できる。
+- 　別のサーバが割り当てられた（12時間以上経つ、接続が切れる）場合は再度のダウンロードが必要。
 
 <br />
 <br />
