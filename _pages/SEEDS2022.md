@@ -121,7 +121,7 @@ y=x+np.sin(5*x)
 
 ### (4) 脳構造（MRI）データを扱う（ヒト脳断面の表示）
 
-脳構造データを読み込んで矢状断面を描画する。
+脳構造データを読み込んで脳断面を描画する。
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -146,13 +146,18 @@ plt.imshow(img,origin='lower',cmap='gray')
 - 公開データ [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
 
 <br />
+<br />
+参考：　脳断面の名前<br />
+![ex]({{site.baseurl}}/images/seeds/800px-AxesAnatomieCerveauJA.svg.png){:width="400px"}<br />
+Credit: Zwarck, CC BY-SA 3.0
+<br />
 
 発展：
 画像表示のオプションを知りたい→「matplotlib imshow 使い方」等で検索
 <br />
 
 **練習問題**：
-冠状断面および水平断面を表示してみましょう。<br />
+冠状（前頭）断面および水平（横）断面を表示してみましょう。<br />
 ![ex]({{site.baseurl}}/images/seeds/anat_c.png) ![ex]({{site.baseurl}}/images/seeds/anat_h.png)
 
 <br />
