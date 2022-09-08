@@ -127,7 +127,6 @@ y=x+np.sin(5*x)
 - 撮像形態：　頭部3次元構造画像（X-Y-Z）　（T1強調ME-MPRAGE）
 - 撮像の空間解像度：　1.3 x 1.0 x 1.0 mm
 - 撮像ボクセル数：　(128, 192, 256)
-- 撮像時間：　約8分
 - 脳データ共有サイトOpenNeuroの [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
 - 個人情報保護のためdeface処理済み
 
