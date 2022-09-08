@@ -301,7 +301,7 @@ Pythonについてより体系的に学びたい人に（東京大学の授業�
 - [Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf){:target="_blank"}<br />
 <br />
 
-脳についてもっと知りたい方に（関連書籍）<br />
+脳についてもっと知りたい人に（関連書籍）<br />
 - [火星の人類学者──脳神経科医と７人の奇妙な患者](https://www.hayakawa-online.co.jp/product/books/90251.html){:target="_blank"}（脳神経科医師のエッセイ）
 - [脳の中の幽霊](https://www.kadokawa.co.jp/product/200805000103/){:target="_blank"}（脳神経科学者のエッセイ）
 - [しあわせの理由](https://www.hayakawa-online.co.jp/product/books/11451.html){:target="_blank"}（脳神経科学等に関する短編SF集）
