@@ -41,7 +41,7 @@ permalink: /SEEDS2022
 
 **Reading Minds**<br />
 [https://www.youtube.com/watch?v=z8iEogscUl8](https://www.youtube.com/watch?v=z8iEogscUl8)<br />
-Nature誌編集部による脳解読（デコーディング）研究分野の紹介。英語に自身がある人向け。<br />
+Nature誌編集部による脳解読（デコーディング）研究分野の紹介。英語。<br />
 
 <br />
 <br />
