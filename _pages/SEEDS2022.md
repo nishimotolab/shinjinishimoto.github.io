@@ -25,7 +25,7 @@ y=2*x+7
 print(y)
 ```
 結果例：
-![ex]({{site.baseurl}}/images/seeds/colab1.png)
+![ex]({{site.baseurl}}/images/seeds/colab1.png){:width="500px"}
 <br />
 上記のように答え（17）が帰ってきたらGoogle Colabのクラウドサーバの割り当てと接続ができている<br />
 <br />
