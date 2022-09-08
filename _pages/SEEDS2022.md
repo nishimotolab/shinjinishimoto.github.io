@@ -184,7 +184,7 @@ plt.imshow(img,origin='lower',cmap='gray')
 <br />
 
 参考：　脳断面の名前 (Credit: Zwarck, CC BY-SA 3.0)<br />
-![ex]({{site.baseurl}}/images/seeds/800px-AxesAnatomieCerveauJA.svg.png){:width="400px"}<br />
+![ex]({{site.baseurl}}/images/seeds/800px-AxesAnatomieCerveauJA.svg.png){:width="500px"}<br />
 <br />
 
 
