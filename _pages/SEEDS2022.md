@@ -218,3 +218,13 @@ plt.imshow(ev2d,alpha=1.0*(ev2d>0.3),vmin=0,vmax=1)   #EV値が高いボクセ�
 <br />
 (2) (1)の結果および脳機能の局在性から、どちらのデータが(A)(B)どちらの刺激を用いていたのか推定してみましょう。<br />
 　　ヒント：ヒト脳における視覚野と聴覚野の位置<br />
+<br />
+応用(3) 応答再現性解析の結果を矢状断面スライス一覧で表示してみましょう。（上記では物足りない人向け）<br />
+
+<br />
+発展：　さらにPythonについて知りたい人に（東京大学授業資料）：<br />
+![Pythonプログラミング入門 Colab版](https://utokyo-ipp.github.io/)<br />
+![Pythonプログラミング入門 PDF版](https://utokyo-ipp.github.io/IPP_textbook.pdf)<br />
+<br />
+<br />
+
