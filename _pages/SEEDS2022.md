@@ -243,7 +243,7 @@ $$
  EV = 1-\dfrac{var(error)}{var(all)}
 $$ <br />
 <br />
-EV: (stimulus-) Explained Variance<br />
+EV: (stimulus-) Explainable Variance<br />
 <br />
 <br />
 
