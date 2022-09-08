@@ -46,7 +46,7 @@ y=2*x
 print(y)
 ```
 結果例：
-![ex]({{site.baseurl}}/images/seeds/colab1.png){:width="500px"}
+![ex]({{site.baseurl}}/images/seeds/colab1.png){:width="450px"}
 <br />
 上記のように正しい答え（22）が返ってきたらGoogle Colabクラウドサーバの割り当てと接続が正常に行われている<br />
 
