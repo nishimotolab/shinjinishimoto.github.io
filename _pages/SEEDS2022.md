@@ -162,6 +162,7 @@ y=x+np.sin(5*x)
 - 脳データ共有サイトOpenNeuroの [LiteBook Alertness Study](https://openneuro.org/datasets/ds004219/versions/1.0.0) から取得（CC0）
 - 個人情報保護のためdeface処理済み
 
+<br />
 脳構造データを読み込んで脳断面を描画する。<br />
 ```python
 import numpy as np
@@ -206,6 +207,7 @@ plt.imshow(img,origin='lower',cmap='gray')
 - 撮像ボクセル数：　(72,96,96）
 - 解析のための前処理（脳抽出・動き補正・長期トレンド除去）済み
 
+<br />
 ある一座標（単一ボクセル）の時系列応答を取り出し、繰り返し提示刺激に対する応答再現性を計算する。<br />
 ```python
 import numpy as np
