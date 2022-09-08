@@ -6,7 +6,7 @@ sitemap: false
 permalink: /SEEDS2022
 ---
 
-## SEEDS2022/T2216
+# SEEDS2022/T2216
 <br />
 
 
@@ -14,6 +14,20 @@ permalink: /SEEDS2022
 閲覧は受講者および関係者に限ります。<br />
 
 <br />
+<br />
+
+## 実験施設見学（実地見学もしくは動画）
+<br />
+オンライン参加もしくは見学順番待ちの時間には下記の動画を視聴してください。<br />
+<br />
+
+**CiNet紹介**
+https://www.youtube.com/watch?v=25auAmwsq8M
+
+<br />
+<br />
+
+## 解析体験
 <br />
 
 ### (0) Google Colab利用の準備を行う
