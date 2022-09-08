@@ -32,7 +32,7 @@ permalink: /SEEDS2022
 時間があればこちらも御覧ください：<br />
 <br />
 **NICT CiNet 脳情報通信技術**<br />
-[https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M)
+[https://www.youtube.com/watch?v=Mshx8fyYH1M](https://www.youtube.com/watch?v=Mshx8fyYH1M)<br />
 <br />
 
 **大阪大学 総合型・学校推薦型選抜 入学者インタビュー**<br />
