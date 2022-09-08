@@ -19,10 +19,10 @@ permalink: /SEEDS2022
 ### (0) Google Colab利用の準備を行う
 
 1. Googleアカウントを作成する
-2. Google Colabを開く (https://colab.research.google.com/?hl=ja)
-![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="500px"}
+2. Google Colabを開く (https://colab.research.google.com/?hl=ja) <br />
+![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="600px"}
 3. 再生ボタン（右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う
-
+<br />
 **Google Colabとは**
 - Google社が提供するオンラインのPython実行環境
 - ブラウザ（Chrome、Edge等）上で動作する
@@ -113,8 +113,8 @@ y=x+np.sin(5*x)
 メモ：　
 - 最初に「!」がつくとPythonではなくLinuxコマンドとして実行される。<br />
 - 　「.npz」はNumPyデータを扱うファイル形式の一つ。<br />
-- 　同じサーバを利用し続ける限り上記のファイルが利用できる。
-- 　別のサーバが割り当てられた（12時間以上経つ、接続が切れる）場合は再度のダウンロードが必要。
+- 　同じクラウドサーバを利用し続ける限り上記のファイルが利用できる。
+- 　別のクラウドサーバが割り当てられた（12時間以上経った、接続が切れた）場合は再度のダウンロードが必要。
 
 <br />
 <br />
