@@ -53,7 +53,8 @@ Nature誌編集部による脳解読（デコーディング）研究分野の�
 1. Google Colabを開く [https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja){:target="_blank"}<br />
 2. （ファイルー）「ノートブックを新規作成」
 ![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="640px"}
-3. 再生ボタン（左上部の右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う
+3. 実行ボタン（左上部の右向き三角アイコン）を押してGoogle Colabクラウドサーバへの接続を行う（数秒待つ）
+4. ボタン横の長方形部分（セル）に半角文字で「1+5」等と入力して実行ボタンを押し、セルの下に計算結果が出力（表示）されることを確かめる
 
 <br />
 <br />
@@ -70,8 +71,8 @@ Nature誌編集部による脳解読（デコーディング）研究分野の�
 <br />
 <br />
 
-### (1) Google Colabを動かす（簡単な計算）
-Google Colabに接続し、「+コード」で新しいセルを開いて下記を入力し、実行（再生ボタン）を押す。
+### (1) Google Colabを動かす（式と計算）
+Google Colabの画面から「+コード」で新しいセルを開いて下記を入力し、セル左上の実行ボタンを押す。
 ```python
 x=5+6
 y=2*x
@@ -80,8 +81,9 @@ print(y)
 結果例：
 ![ex]({{site.baseurl}}/images/seeds/colab1.png){:width="450px"}
 <br />
-上記のように正しい答え（22）が返ってきたらGoogle Colabクラウドサーバの割り当てと接続が正常に行われている<br />
-
+- 計算・プログラミングの実行はセル単位で行われる
+- xやyなどの文字（変数）を使うことができる
+- 様々な動作を行う関数（上ではprint()など）が用意されている
 <br />
 <br />
 
