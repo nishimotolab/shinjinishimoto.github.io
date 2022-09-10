@@ -26,7 +26,7 @@ permalink: /SEEDS2022
 **CiNet施設・環境紹介（短縮版）**<br />
 [https://www.youtube.com/watch?v=25auAmwsq8M](https://www.youtube.com/watch?v=25auAmwsq8M){:target="_blank"}<br />
 <div class="iframe-responsive">
-<iframe width="560" height="315"
+<iframe width="784" height="440"
 src="https://www.youtube.com/embed/25auAmwsq8M
 ?loop=1
 &autoplay=0
