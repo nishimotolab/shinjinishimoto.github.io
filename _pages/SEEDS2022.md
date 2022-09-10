@@ -45,11 +45,20 @@ Nature誌編集部による脳解読（デコーディング）研究分野の�
 
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## 解析体験
 
 ### (0) Google Colab利用の準備を行う
 
+0. Googleアカウントを作成する
 1. Google Colabを開く [https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja){:target="_blank"}<br />
 2. （ファイルー）「ノートブックを新規作成」
 ![ex]({{site.baseurl}}/images/seeds/colab0.png){:width="640px"}
