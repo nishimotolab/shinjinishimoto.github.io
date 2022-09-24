@@ -12,6 +12,8 @@ permalink: /SEEDS2022
 
 このページは大阪大学SEEDS体感科学研究2022年度T2216の参照用ページです。<br />
 閲覧は受講者および関係者に限ります。<br />
+<br />
+<br />
 
 # 第２回　2022/9/24
 
@@ -19,8 +21,7 @@ permalink: /SEEDS2022
 - 講義・研究事例紹介・脳情報を解読する
 - 実習・オープン脳データを解析してみよう
 
-（後で公開）
-[Colab Script](https://colab.research.google.com/drive/1Fm-lpnlTAyCB3P0yXixvMNgi5vIpVIbR000?usp=sharing){:target="_blank"}
+[Colab Script](https://colab.research.google.com/drive/1Fm-lpnlTAyCB3P0yXixvMNgi5vIpVIbR?usp=sharing){:target="_blank"}
 
 
 <br />
