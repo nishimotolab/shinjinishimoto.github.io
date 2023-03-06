@@ -1,3 +1,21 @@
+- title: "Artificial neural network modelling of the neural population code underlying mathematical operations"
+  image: 
+  description: 
+  authors: Nakai T, Nishimoto S
+  link:
+    url: https://doi.org/10.1016/j.neuroimage.2023.119980
+    display: NeuroImage (2023)
+  highlight: 0
+
+- title: "High-resolution image reconstruction with latent diffusion models from human brain activity"
+  image: 
+  description: 
+  authors: Takagi Y, Nishimoto S
+  link:
+    url: https://doi.org/10.1101/2022.11.18.517004
+    display: The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2023)
+  highlight: 0
+
 - title: "Quantitative modelling demonstrates format-invariant representations of mathematical problems in the brain"
   image: 
   description: 
