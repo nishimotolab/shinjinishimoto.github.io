@@ -8,13 +8,13 @@
   highlight: 0
 
 - title: "High-resolution image reconstruction with latent diffusion models from human brain activity"
-  image: 
-  description: 
+  image: https://nishimotolab.org/images/newspic/Takagi2023CVPR.png
+  description: 脳活動と画像生成AIの潜在表現の定量的関係性を示し、脳活動からの知覚内容の解読（映像化）、AI潜在表現の脳活動からの解釈などを行いました。この論文はScience、朝日新聞等を含む世界各国60以上のメディアで報道されました。
   authors: Takagi Y, Nishimoto S
   link:
     url: https://doi.org/10.1101/2022.11.18.517004
     display: The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2023)
-  highlight: 0
+  highlight: 1
 
 - title: "Quantitative modelling demonstrates format-invariant representations of mathematical problems in the brain"
   image: 
