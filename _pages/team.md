@@ -134,3 +134,7 @@ permalink: /team/
 [メンバーページへ](https://www2.nict.go.jp/bnc/nishimoto/members.html)
 <br>
 <br>
+
+
+### Alumni:
+{% for member in site.data.alumni %} {{ member.name }} {% endfor %}
