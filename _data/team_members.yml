@@ -1,4 +1,4 @@
-- name: 西本 伸志
+- name: 西本 伸志 (Shinji Nishimoto)
   photo: shinji_face.jpg
   info: 教授
   email: 
@@ -7,7 +7,7 @@
   education2: <a href="https://researchmap.jp/shinjinishimoto/">researchmap</a>
   education3: <a href="https://scholar.google.com/citations?user=y1pLEGkAAAAJ">Google Scholar</a>
 
-- name: 佐々木 耕太
+- name: 佐々木 耕太 (Kota Sasaki)
   photo: kss.jpg
   info: 特任講師
   email: 
@@ -15,7 +15,7 @@
   education1: <a href="https://researchmap.jp/kss/">researchmap</a>
   education2:
 
-- name: 高木 優
+- name: 高木 優 (Yu Takagi)
   photo: yutakagi.jpg
   info: 助教
   email: 
@@ -23,7 +23,7 @@
   education1: <a href="https://yu-takagi.github.io/">個人HP</a>
   education2:
 
-- name: 波間 智行
+- name: 波間 智行 (Tomoyuki Namima)
   photo: NamimaPhoto2.jpeg
   info: 助教
   email: 
@@ -31,7 +31,7 @@
   education1: <a href="https://researchmap.jp/namima">researchmap</a>
   education2:
 
-- name: 久保 理恵子
+- name: 久保 理恵子 (Rieko Kubo)
   photo: riekokubo.jpg
   info: 特任研究員
   email: 
@@ -39,21 +39,21 @@
   education1: 音声コミュニケーション
   education2: <a href="https://researchmap.jp/rkubo/">researchmap</a>
 
-- name: 山下 真寛
+- name: 山下 真寛 (Masahiro Yamashita)
   photo: faceicon.jpg
   info: 特任研究員
   email: 
   number_educ: 0
   education1:
 
-- name: 市川 直人
+- name: 市川 直人 (Naoto Ichikawa)
   photo: faceicon.jpg
   info: 技術スタッフ
   email: 
   number_educ: 0
   education1:
 
-- name: 山本 亜希子
+- name: 山本 亜希子 (Akiko Yamamoto)
   photo: faceicon.jpg
   info: 技術補佐員
   email: 
