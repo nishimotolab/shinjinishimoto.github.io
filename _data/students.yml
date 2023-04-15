@@ -52,47 +52,68 @@
 
 - name: 岩崎　淳一郎
   photo: rock.jpg
-  info: 基礎工学部生物工学コース
+  info: 生命機能研究科
   email: 
   number_educ: 0
   education1:
 
 - name: 小野田　瞳
   photo: rock.jpg
-  info: 基礎工学部生物工学コース
-  email: 
-  number_educ: 0
-  education1:
-
-- name: 竹田　昂平
-  photo: rock.jpg
-  info: 基礎工学部生物工学コース
+  info: 生命機能研究科
   email: 
   number_educ: 0
   education1:
 
 - name: 千田　竣介
   photo: rock.jpg
-  info: 基礎工学部生物工学コース
+  info: 生命機能研究科
   email: 
   number_educ: 0
   education1:
 
 - name: 中木　裕子
   photo: rock.jpg
-  info: 基礎工学部生物工学コース
+  info: 生命機能研究科
   email: 
   number_educ: 0
   education1:
 
 - name: 松山　卓矢
   photo: rock.jpg
+  info: 生命機能研究科
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 稲田　龍人
+  photo: rock.jpg
   info: 基礎工学部生物工学コース
   email: 
   number_educ: 0
   education1:
 
-- name: 渡邉　悠暉
+- name: 熊懐　葵
+  photo: rock.jpg
+  info: 基礎工学部生物工学コース
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 正井　嘉人
+  photo: rock.jpg
+  info: 基礎工学部生物工学コース
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 枡本　凌武
+  photo: rock.jpg
+  info: 基礎工学部生物工学コース
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 山形　修平
   photo: rock.jpg
   info: 基礎工学部生物工学コース
   email: 
