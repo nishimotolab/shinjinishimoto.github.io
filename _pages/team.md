@@ -137,4 +137,4 @@ permalink: /team/
 
 
 ### Alumni:
-{% for member in site.data.alumni %} {{ member.name }} {% endfor %}
+{% for member in site.data.alumni_visitors %} {{ member.name }} {% endfor %}
