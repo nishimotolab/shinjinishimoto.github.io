@@ -85,6 +85,13 @@
   number_educ: 0
   education1:
 
+- name: 吉村 隆晟
+  photo: rock.jpg
+  info: 生命機能研究科
+  email: 
+  number_educ: 0
+  education1:
+
 - name: 稲田 龍人
   photo: rock.jpg
   info: 基礎工学部生物工学コース
@@ -120,9 +127,3 @@
   number_educ: 0
   education1:
 
-- name: 吉村 隆晟
-  photo: rock.jpg
-  info: 基礎工学部生物工学コース
-  email: 
-  number_educ: 0
-  education1:
