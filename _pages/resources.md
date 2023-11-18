@@ -25,7 +25,7 @@ permalink: /resources/
 
 #### コード
 [StableDiffusionReconstruction (Takagi and Nishimoto 2023 CVPR, Tech Report)](https://github.com/yu-takagi/StableDiffusionReconstruction)<br>
-[Over 100 Task MRI (Nakai and Nishimoto 2020 Nature Communications](https://osf.io/ea2jc/)<br>
+[Over 100 Task MRI (Nakai and Nishimoto 2020 Nature Communications)](https://osf.io/ea2jc/)<br>
 [Motion_energy_matlab (Nishimoto et al., 2011 Current Biology, Journal of Neuroscience)](https://github.com/gallantlab/motion_energy_matlab)<br>
 <br>
 
