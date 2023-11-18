@@ -32,7 +32,7 @@ permalink: /resources/
 #### プロジェクトページ
 [High-resolution image reconstruction with latent diffusion models from human brain activity](https://sites.google.com/view/stablediffusion-with-brain/)<br>
 [Brain2Music: Reconstructing Music from Human Brain Activity](https://google-research.github.io/seanet/brain2music/)<br>
-
+<br>
 
 ### 関連動画
 Algonauts Project 2021 Challenge
