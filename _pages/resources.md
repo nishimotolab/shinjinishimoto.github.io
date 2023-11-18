@@ -24,9 +24,15 @@ permalink: /resources/
 <br>
 
 #### コード
-[Over 100 Task MRI](https://osf.io/ea2jc/)<br>
-[Motion_energy_matlab](https://github.com/gallantlab/motion_energy_matlab)<br>
+[StableDiffusionReconstruction (Takagi and Nishimoto 2023 CVPR, Tech Report)](https://github.com/yu-takagi/StableDiffusionReconstruction)<br>
+[Over 100 Task MRI (Nakai and Nishimoto 2020 Nature Communications](https://osf.io/ea2jc/)<br>
+[Motion_energy_matlab (Nishimoto et al., 2011 Current Biology, Journal of Neuroscience)](https://github.com/gallantlab/motion_energy_matlab)<br>
 <br>
+
+#### プロジェクトページ
+[High-resolution image reconstruction with latent diffusion models from human brain activity](https://sites.google.com/view/stablediffusion-with-brain/)<br>
+[Brain2Music: Reconstructing Music from Human Brain Activity](https://google-research.github.io/seanet/brain2music/)<br>
+
 
 ### 関連動画
 Algonauts Project 2021 Challenge
