@@ -1,3 +1,21 @@
+- title: "Mental image reconstruction from human brain activity: Neural decoding of mental imagery via deep neural network-based Bayesian estimation"
+  image: 
+  description: 
+  authors: Koide-Majima N, Nishimoto S, Majima K
+  link:
+    url: https://doi.org/10.1016/j.neunet.2023.11.024
+    display: Neural Networks (2024)
+  highlight: 0
+
+- title: "Inserting a Neuropixels probe into awake monkey cortex: two probes, two methods"
+  image: 
+  description: 
+  authors: Namima T, Kempkes E, Smith B, Smith L, Orsborn AL, Pasupathy A
+  link:
+    url: https://doi.org/10.1016/j.jneumeth.2023.110016
+    display: Journal of Neuroscience Methods (2023)
+  highlight: 0
+
 - title: "Artificial neural network modelling of the neural population code underlying mathematical operations"
   image: 
   description: 
