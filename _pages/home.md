@@ -1,7 +1,6 @@
 ---
 title: "Nishimoto Lab - Home"
 layout: homelay
-excerpt: "知覚・認知神経科学研究室"
 sitemap: false
 permalink: /
 ---
