@@ -1,7 +1,6 @@
 ---
 title: "Nishimoto Lab - p5"
 layout: textlay
-excerpt: "p5"
 sitemap: false
 permalink: /p5
 ---
