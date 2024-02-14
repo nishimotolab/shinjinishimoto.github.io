@@ -1,7 +1,6 @@
 ---
 title: "Nishimoto Lab - Donation"
 layout: textlay
-excerpt: "Donation"
 sitemap: false
 permalink: /donation
 ---
