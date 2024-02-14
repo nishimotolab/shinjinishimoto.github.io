@@ -1,7 +1,6 @@
 ---
 title: "Nishimoto Lab - Site Policy"
 layout: textlay
-excerpt: "Site Policy"
 sitemap: false
 permalink: /sitepolicy
 ---
