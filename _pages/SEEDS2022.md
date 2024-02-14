@@ -1,7 +1,6 @@
 ---
 title: "Nishimoto Lab - SEEDS2022"
 layout: textlay
-excerpt: "SEEDS2022"
 sitemap: false
 permalink: /SEEDS2022
 ---
