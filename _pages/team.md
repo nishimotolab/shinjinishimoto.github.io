@@ -1,7 +1,6 @@
 ---
 title: "Nishimoto Lab - Team"
 layout: gridlay
-excerpt: "Nishimoto Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
