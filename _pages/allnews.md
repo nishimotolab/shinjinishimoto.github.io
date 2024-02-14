@@ -1,7 +1,6 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Nishimoto Lab"
 sitemap: false
 permalink: /allnews.html
 ---
