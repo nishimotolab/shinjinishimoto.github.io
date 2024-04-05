@@ -8,41 +8,6 @@
 #  education3:
 #  education4:
 
-- name: 奥野 綾音
-  photo: rock.jpg
-  info: 生命機能研究科
-  email: 
-  number_educ: 0
-  education1:
-
-- name: 川﨑 康平
-  photo: rock.jpg
-  info: 生命機能研究科
-  email: 
-  number_educ: 0
-  education1:
-
-- name: 黒田 悠翔
-  photo: rock.jpg
-  info: 生命機能研究科
-  email: 
-  number_educ: 0
-  education1:
-
-- name: 鈴木 悠大
-  photo: rock.jpg
-  info: 生命機能研究科
-  email: 
-  number_educ: 0
-  education1:
-
-- name: 深井 勇汰
-  photo: rock.jpg
-  info: 生命機能研究科
-  email: 
-  number_educ: 0
-  education1:
-
 - name: 岩崎 淳一郎
   photo: rock.jpg
   info: 生命機能研究科
@@ -51,6 +16,13 @@
   education1:
 
 - name: 小野田 瞳
+  photo: rock.jpg
+  info: 生命機能研究科
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 鈴木 悠大
   photo: rock.jpg
   info: 生命機能研究科
   email: 
@@ -92,14 +64,56 @@
   number_educ: 0
   education1:
 
-- name: 稲田 龍人
+- name: 長弘 夢野
+  photo: rock.jpg
+  info: 生命機能研究科（認知脳科学研究グループ）
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 前川 和生
+  photo: rock.jpg
+  info: 生命機能研究科（認知脳科学研究グループ）
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 枡本 凌武
+  photo: rock.jpg
+  info: 生命機能研究科
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 吉野 草太
+  photo: rock.jpg
+  info: 生命機能研究科
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 柴崎　晶斗
   photo: rock.jpg
   info: 基礎工学部生物工学コース
   email: 
   number_educ: 0
   education1:
 
-- name: 熊懐 葵
+- name: 多田　圭吾
+  photo: rock.jpg
+  info: 基礎工学部生物工学コース
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 近澤　勇聡
+  photo: rock.jpg
+  info: 基礎工学部生物工学コース
+  email: 
+  number_educ: 0
+  education1:
+
+- name: 土屋　佑奈
   photo: rock.jpg
   info: 基礎工学部生物工学コース
   email: 
@@ -113,17 +127,9 @@
   number_educ: 0
   education1:
 
-- name: 枡本 凌武
+- name: 山田　泰大
   photo: rock.jpg
   info: 基礎工学部生物工学コース
   email: 
   number_educ: 0
   education1:
-
-- name: 山形 修平
-  photo: rock.jpg
-  info: 基礎工学部生物工学コース
-  email: 
-  number_educ: 0
-  education1:
-
