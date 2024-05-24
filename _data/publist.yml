@@ -1,3 +1,21 @@
+- title: "Text and image generation from intracranial electroencephalography using an embedding space for text and images"
+  image: 
+  description: 
+  authors: Ikegawa Y, Fukuma R, Sugano H, Oshino S, Tani N, Tamura K, Iimura Y, Suzuki H, Yamamoto S, Fujita Y, Nishimoto S, Kishima H, Yanagisawa T
+  link:
+    url: https://doi.org/10.1088/1741-2552/ad417a
+    display: Journal of Neural Engineering (2024)
+  highlight: 0
+
+- title: "Semantic context-dependent neural representations of odors in the human piriform cortex revealed by 7T MRI"
+  image: 
+  description: 
+  authors: Okumura T, Kida I, Yokoi A, Nakai T, Nishimoto S, Touhara K, Okamoto M
+  link:
+    url: https://doi.org/10.1002/hbm.26681
+    display: Human Brain Mapping (2024)
+  highlight: 0
+
 - title: "Mental image reconstruction from human brain activity: Neural decoding of mental imagery via deep neural network-based Bayesian estimation"
   image: 
   description: 
