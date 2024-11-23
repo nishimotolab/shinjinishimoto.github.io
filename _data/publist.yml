@@ -1,3 +1,12 @@
+- title: "Unveiling Multi-level and Multi-modal Semantic Representations in the Human Brain using Large Language Models"
+  image: EMNLP2024.png
+  description: 物語（映画・ドラマ等、〜8時間）を見ているときのヒト脳活動について、発話内容、状況、文脈等を含む多様な言語・マルチモーダル情報表現をLLM/基盤モデルを用いて解析し、これらの脳内表現・機能分布を明らかにしました。
+  authors: Nakagi Y, Matsuyama T, Koide-Majima N, Yamaguchi HQ, Kubo R, Nishimoto S, Takagi Y
+  link:
+    url: https://aclanthology.org/2024.emnlp-main.1133/
+    display: Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) (2024)
+  highlight: 1
+
 - title: "Homogenization of word relationships in schizophrenia: Topological analysis of cortical semantic representations"
   image: 
   description: 
