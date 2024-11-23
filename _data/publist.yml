@@ -1,5 +1,5 @@
 - title: "Unveiling Multi-level and Multi-modal Semantic Representations in the Human Brain using Large Language Models"
-  image: EMNLP2024.png
+  image: EMNLP2024brain.png
   description: 物語（映画/ドラマ約8時間）を見ているときの脳活動について、発話内容、状況、文脈等を含む多様な言語・マルチモーダル情報をLLM/基盤モデルを用いて解析し、その脳内表現・分布を明らかにしました。
   authors: Nakagi Y, Matsuyama T, Koide-Majima N, Yamaguchi HQ, Kubo R, Nishimoto S, Takagi Y
   link:
